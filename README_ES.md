@@ -51,9 +51,9 @@ Experimentación comparativa con los parámetros que controlan el comportamiento
 
 | Parámetro | Valores probados | Efecto principal |
 |-----------|-----------------|-----------------|
-| `temperature` | 0.0 / 0.5 / 1.0 / 1.5 | Aleatoriedad y creatividad de las respuestas |
+| `temperature` | 0.0 / 0.5 / 1.0 | Aleatoriedad y creatividad de las respuestas |
 | `top_p` | 0.1 / 0.5 / 0.9 / 1.0 | Amplitud del vocabulario candidato |
-| `presence_penalty` | 0.0 / 0.6 / 1.5 | Diversidad de temas explorados |
+| `presence_penalty` | 0.0 / 0.6 / 1 | Diversidad de temas explorados |
 | `frequency_penalty` | 0.0 / 0.8 | Reducción de repeticiones de palabras |
 
 El notebook incluye también respuestas a las preguntas teóricas clave:
